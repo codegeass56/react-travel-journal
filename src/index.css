@@ -3,9 +3,15 @@
   src: url(Inter-VariableFont.ttf);
 }
 
+html {
+  height: 100%;
+}
+
 body {
   margin: 0;
   font-family: Inter, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100%;
+  width: 100%;
 }
 
 .navbar {
@@ -19,4 +25,68 @@ body {
 
 .globe-icon {
   margin-right: 7px;
+}
+
+.card {
+  display: flex;
+}
+
+.card--data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 325px;
+  height: 170px;
+  font-size: 10.24px;
+}
+
+.card--location-data {
+  display: flex;
+  align-items: center;
+  color: #2B283A;
+}
+
+.card--country-name {
+  margin-left: 4px;
+  margin-right: 12px;
+  letter-spacing: 0.17em;
+}
+
+a {
+  color: #918E9B;
+}
+
+h1 {
+  margin-top: 7px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.card--dates {
+  margin-top: 7px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.card--text {
+  margin-top: 9px;
+}
+
+.location-img {
+  width: 125px;
+  height: 170px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: inherit;
+}
+
+.App {
+  height: 100vh;
 }
