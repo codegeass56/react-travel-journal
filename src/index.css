@@ -1,0 +1,22 @@
+@font-face {
+  font-family: Inter;
+  src: url(Inter-VariableFont.ttf);
+}
+
+body {
+  margin: 0;
+  font-family: Inter, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  background-color: #F55A5A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 20px;
+}
+
+.globe-icon {
+  margin-right: 7px;
+}
