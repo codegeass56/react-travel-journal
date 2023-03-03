@@ -1,4 +1,3 @@
-import JapanImg from "../assets/japanImg.jpeg";
 import locationIcon from "../assets/Fill219.png"
 
 function Card(props) {
